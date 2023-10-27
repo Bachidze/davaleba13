@@ -1,0 +1,263 @@
+@media(width > 168px){
+
+    .openMenu{
+        display: none;
+    }
+    nav .mainMenu{
+        height: 571px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        transition: top 3s ease;
+        display: none;
+        background-image: url(./assets/Group\ 17\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-position: 0 190%;
+    }
+
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    nav .openMenu{
+        display: block;
+    }
+}
+
+
+@media(width > 767px){
+    .openMenu img{
+        display: none;
+    }
+}
+
+
+@media (width < 767px){
+    .bachidze{
+        display: none;
+    }
+}
+
+
+@media (width > 1440px){
+    .bachidze a:hover{
+        color: gray;
+    }
+
+    .giogio a:hover{
+        background-color: black;
+        padding: 12px 30px;
+        transition: 3.5s;
+    }
+
+    .mini-container-2{
+        width: 100%;
+        position: relative;
+        top: -600px;
+        height: 600px;
+        text-align: left;
+        padding-left: 150px;
+    }
+    .mini-container-2 h3{
+        position: absolute;
+        width: 150px;
+    }
+
+    .mini-container-2 p{
+        width: 520px;
+    }
+
+    .mini-container-2 h1{
+        color: white;
+        font-size: 72px;
+        font-family: DM Serif Display;
+        font-weight: 400;
+        line-height: 64px;
+        word-wrap: break-word;
+        width: 500px;
+        padding-top: 63px;
+        padding-bottom: 16px;
+    }
+
+    .surati{
+        display: none;
+    }
+
+    .charcho{
+        width: 20%;
+        height: 1px;
+        background-color: gray;
+        text-align: left;
+    }
+
+    .photo{
+        z-index: 10;
+        width: 500px;
+        position: relative;
+        top: 140px;
+        left: 200px;
+    }
+
+    .mini-container-2 h3:hover{
+        color: #2C2830;
+        background-color: white;
+        transition: 3.5s;
+        cursor: pointer;
+    }
+
+    .surati-2{
+        position: absolute;
+        right: 0;
+        top: 10%;
+        z-index: 11;
+    }
+
+    .border{
+        width: 15%;
+        position: absolute;
+        top: 140%;
+    }
+
+   .mini-container-3 h2{
+        color: #2C2830;
+        font-size: 72px;
+        font-family: DM Serif Display;
+        font-weight: 400;
+        line-height: 64px;
+        word-wrap: break-word;
+    }
+
+    
+
+    .mini-container-3{
+        margin-top: -400px;
+        text-align: left;
+        padding-left: 165px;
+    }
+
+    .surati-3{
+        position: absolute;
+        left: 0;
+        top: 60%;
+    }
+
+    .mini-container-4{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        gap: 80px;
+        padding-top: 96px;
+    }
+
+    .mini-container-5 h3:hover{
+        color: #2C2830;
+        background-color: white;
+        cursor: pointer;
+        transition: 3.5s;
+    }
+
+
+    .mini-container-5{
+        width: 77%;
+        display: flex;
+        padding: 69px 81px;
+        background-image: url(./assets/Group\ 10\ \(2\).svg);
+        background-position: bottom top;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        margin-top: 158px;
+        margin-bottom: 150px;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 175px;
+    }
+    .mini-container-5 h5{
+        color: white;
+        font-size: 56px;
+        font-family: DM Serif Display;
+        font-weight: 400;
+        line-height: 56px;
+        word-wrap: break-word;
+        width: 550px;
+        text-align: left;
+    }
+
+
+    .mini-container-5 h3{
+        width: 200px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .flex-1{
+        padding-top: 50px;
+    }
+
+    .footer-1{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 165px;
+        padding-right: 165px;
+        background-image: none;
+    }
+
+    footer{
+        background-image: url(./assets/Group\ 22\ \(2\).svg);
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+
+    .borderi{
+        opacity: 1.2;
+    }
+
+    .media{
+        display: flex;
+        gap: 10px;
+    }
+
+    .social:hover{
+      background-color: blue;
+      cursor: pointer;
+      transition: 2s;
+      border-radius: 50%;
+    }
+
+    .footer-3{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        padding-bottom: 64px;
+    }
+
+}
+
+@media(width < 1440px){
+    .charcho{
+        display: none;
+    }
+
+    .surati-2{
+        display: none;
+    }
+
+    .surati-3{
+        display: none;
+    }
+}
+
